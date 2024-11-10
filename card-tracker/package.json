@@ -1,0 +1,21 @@
+{
+  "name": "card-tracker",
+  "version": "1.0.0",
+  "description": "Servidor de redirecionamento e registro de acessos do cartao de visita",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "stats": "node stats.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
